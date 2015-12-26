@@ -1,6 +1,6 @@
-watchmen/watchmen-config/hosts.js
+watchmen-config/hosts.js
 saltfiles
 *.container.id
 conf.zk
 conf.supervisor
-
+./.idea
