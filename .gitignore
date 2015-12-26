@@ -3,4 +3,4 @@ saltfiles
 *.container.id
 conf.zk
 conf.supervisor
-./.idea
+.idea
