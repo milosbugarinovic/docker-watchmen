@@ -2,7 +2,7 @@ FROM sroegner/centos-base-ssh
 
 RUN yum -y install nodejs npm git redis; \
     git clone https://github.com/milosbugarinovic/watchmen.git /srv/watchmen && \
-    cd /srv/watchmen && npm install && mv config config.dist; \
+    cd /srv/watchmen && npm install; \
     mkdir -p /var/log/watchmen
 
 ADD . /config
